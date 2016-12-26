@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<meta name="generator" content="" />
+		<meta name="author" content="" />
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<meta name="copyright" content="zp" />
+		<title>补充信息</title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/manner.css" />
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	    <!--[if lt IE 9]>
+	        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	    
+	    <!--[if IE]> 
+		<script src=”http://html5shiv.googlecode.com/svn/trunk/html5.js”></script> 
+		<![endif]--> 
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="navbar-header">
+				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+					<span class="sr-only">Toggle Navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>			       
+				<a href="javascript:;" class="navbar-brand" id="top">
+					<img src="img/logo.png" alt="logo"/>
+				</a>
+			</div>
+			<div class="collapse navbar-collapse navbar-responsive-collapse">
+				<ul class="nav navbar-nav navbar-right" id="menu">
+					<li class="text-center"><a href="home.html" >首页</a></li>
+					<li class="text-center"><a href="designer.html">选设计师</a></li>
+					<li class="text-center"><a href="designervideo.html">奇衣体验</a></li>
+					<li class="text-center"><a class="login" href="login.html">登陆</a></li>
+				</ul>
+			</div>
+		</nav>
+		<section class="row">
+			<header>风格测试中</header>
+			<div class="mannerA col-md-2">
+				<p class="text-center left"><a href="manner-5.html">Back</a></p>
+			</div>
+			<div class="col-md-8">
+				<div class="manner text-center slidef">
+					<h2>补充信息让设计师更了解你</h2>
+					<form class="forms">
+						<input id="input1" type="text" placeholder="姓名" required="required" onfocus="this.placeholder=''"  onblur="this.placeholder='姓名'" value="" />
+						<p class="text-center" id="p1"></p>
+						<input id="input2" type="date" required="required"  value="" />
+						<p class="text-center" id="p2"></p>
+						<div class="sels">
+							<select>
+								<option>请选择</option>
+								<option>1</option>
+							</select>
+							<select>
+								<option>请选择</option>
+								<option>1</option>
+							</select>
+							<select>
+								<option>请选择</option>
+								<option>1</option>
+							</select>
+						</div>
+						<p class="text-center" id="p3"></p>
+						<input id="input3" type="text" placeholder="详细寄送地址" required="required" onfocus="this.placeholder=''"  onblur="this.placeholder='详细寄送地址'" value="" />
+						<p class="text-center" id="p4"></p>
+					</form>
+				</div>
+			</div>
+			<div class="mannerA col-md-2">
+				<p class="text-center right"><a href="javascirpt:;" id="next">Next</a></p>
+			</div>
+		</section>
+		<footer class="row">
+			<ul class="ansow clearfloat col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12 col-xs-12">
+				<li class="pull-left"><a href="explain.html">常见问题<br/>FAQ</a></li>
+				<li class="pull-left"><a href="political.html">隐秘保密<br/>Term of User</a></li>
+				<li class="pull-left"><a href="use.html">关于奇衣果<br/>About Qiyiguo</a></li>
+				<li class="pull-left"><a href="#">联系我们<br/>Contact Us</a></li>
+			</ul>
+			<p class="mesg col-lg-3 col-md-3 col-sm-12 col-xs-12">关注微信公众号</p>
+		</footer>
+		<script type="text/javascript" src="js/jquery-1.11.3.min.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+		<script type="text/javascript" src="js/common.js" ></script>
+		<script>
+			$(function(){
+				var h=$(".manner").height();
+				$(".mannerA>p").css("margin-top",h/2+50);
+				
+				//表单验证 不怎么会写，你改一下
+				$("#next").click(function(){
+				var input1=$("#input1")
+				var input2=$("#input2")
+				var input3=$("#input3")
+				var result = false;
+					if(input1.val()==0){
+						$("#p1").text("请填写你的姓名！")
+						if(input2.val()==0){
+							$("#p2").text("请填写你的出生日期！");
+							if($("option").text("请选择")){
+								$("#p3").text("请填写你完整的省市地区信息！");
+								if(input3.val()==0){
+									$("#p4").text("请填写您的详细寄送地址，方便我们寄送！");
+								}else{
+									$("#p4").text("");
+								}
+							}else{
+								$("#p3").text("");
+							}
+						}else{
+							$("#p2").text("");
+						}
+					}else{
+						$("#p1").text("");
+					}
+				})
+			})
+		</script>
+	</body>
+</html>

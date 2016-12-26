@@ -1,0 +1,100 @@
+/*海报区域*/
+.banner-box{width:100%;height:684px;clear:both;background: url(../images/bannerBg.jpg) no-repeat;background-size:100% 100%;}
+.banner{width:1200px;height:684px;position: relative;margin:0 auto;}
+.banner .internet{width:297px;height:56px;padding-top:70px;margin:0 auto 0;animation:moble 1s ease forwards;}
+.banner .internet-moble{width:179px;height:35px;background: url(../images/yingxiao.png);margin:30px auto 0;animation:moble 1s ease forwards;}
+.banner .ball{width:191px;height:191px;margin:30px auto 0;position:relative;}
+.banner .ball:before{content:"";width:0%;height:2px;background:#fff;position:absolute;top:50%;left:50%;margin-top:-3px; display: inline-block;animation:line 1s ease forwards;}
+.banner .ball:after{content:"";width:0%;height:2px;background:#fff;position:absolute;top:50%;right:50%;margin-top:-3px; display: inline-block;animation:line 1s ease forwards;}
+.banner .ball .dos-l{width:8px;height:8px;border-radius: 50%;background: #fff;position:absolute;top:50%;margin-top:-6px;opacity: 0; left:-266px;animation:dos 0.1s ease 0.8s forwards;}
+.banner .ball .dos-r{width:8px;height:8px;border-radius: 50%;background: #fff;position:absolute;top:50%;margin-top:-6px;opacity: 0; right:-266px;animation:dos 0.1s ease 0.8s forwards;}
+.banner .ball .dos-l p{width:237px;height:29px;background: url(../images/fenxiang.png) no-repeat;position:absolute;top:-33;left:22px;}
+.banner .ball .dos-r p{width:237px;height:31px;background: url(../images/yunshou.png) no-repeat;position:absolute;top:-33;right:22px;}
+.banner .sale-new{width:100%;height:110px;z-index: 2;margin-top:5px;}
+.banner .sale-new .sale-l{width:350px;height:100%;position: relative;float:left;}
+.banner .sale-new .sale-r{width:350px;height:100%;position: relative;float:right;}
+.banner .sale-new .sale-l .dos{animation:dos 0.4s ease forwards;opacity: 0; width:8px;height:8px;border-radius: 50%;background:#fff;position:absolute;right:70px; bottom:10px;margin-top:-6px;/*animation:dos 0.1s ease 0.8s forwards;*/}
+.banner .sale-new .sale-l .line{animation:line1 0.9s ease .4s forwards;width:0%;height:2px;background: #fff;position: absolute;bottom:13px;right:78px;}
+.banner .sale-new .sale-l .line-top{animation:top 0.5s ease 1.3s forwards; width:2px;height:0%;background: #fff;position: absolute;bottom:15px;left:72px;}
+.banner .sale-new .sale-l .sale-man{animation:dos 0.2s ease 1.5s forwards;opacity: 0; border:1px solid #fff; width:61px;height:61px;border-radius: 50%; background: url(../images/huodong.png) no-repeat top center;position:absolute;left:45px;}
+.banner .sale-new .sale-l .sale-man p{position: absolute;left:75px;top:15px; background: url(../images/tuiguan.png) no-repeat;width:271px;height:32px;}
+
+.banner .sale-new .sale-r .dos{animation:dos 0.4s ease forwards;opacity: 0;width:8px;height:8px;border-radius: 50%;background:#fff;position:absolute;left:70px; bottom:10px;margin-top:-6px;/*animation:dos 0.1s ease 0.8s forwards;*/}
+.banner .sale-new .sale-r .line{animation:line1 0.9s ease .4s forwards;width:0%;height:2px;background: #fff;position: absolute;bottom:13px;left:78px;}
+.banner .sale-new .sale-r .line-top{animation:top 0.5s ease 1.3s forwards;width:2px;height:0%;background: #fff;position: absolute;bottom:15px;right:72px;}
+.banner .sale-new .sale-r .sale-man{animation:dos 0.2s ease 1.5s forwards;opacity: 0;border:1px solid #fff; width:61px;height:61px;border-radius: 50%; background: url(../images/tuan.png) no-repeat top center;position:absolute;right:45px;}
+.banner .sale-new .sale-r .sale-man p{position: absolute;right:75px;top:15px; background: url(../images/tuanwe.png) no-repeat;width:271px;height:32px;}
+.banner .sale-bom{width:550px;height:72px;position: relative;margin:40px auto 0;margin-right:235px;}
+.banner .sale-bom .dos{animation:dos 0.4s ease forwards;opacity: 0;width:8px;height:8px;border-radius: 50%;background:#fff;position:absolute;left:10px; bottom:36px;margin-top:-6px;animation:dos 0.1s ease 0.8s forwards;}
+.banner .sale-bom .line{animation:line2 0.9s ease .4s forwards;width:0%;height:2px;background: #fff;position: absolute;bottom:39px;left:14px;}
+.banner .sale-bom .sale-men{animation:dos 0.2s ease 1.5s forwards;opacity: 0;border:1px solid #fff; width:61px;height:61px;border-radius: 50%; background: url(../images/nvke.png) no-repeat top center;position:absolute;right:243px;bottom:6px;}
+.banner .sale-bom .sale-men p{position: absolute;left:80px;top:15px; background: url(../images/kesuo.png) no-repeat;width:271px;height:32px;}
+/*man02-全功能 我们擅长于*/
+.goodman{ width:100%;height:750px;overflow-y: hidden;  background:url(../images/mano1banner_02.jpg)no-repeat;background-size: 100% 100%;clear:both;}
+.goodman .man-01{width:1200px;height:750px;margin:0 auto 0;position: relative;}
+.goodman .man-01 .button{width:110px;height:36px;border-radius: 20px;background: #fff;color:#f4788a;font-size:21px;line-height: 36px;text-align: center;margin:100px 0 0 400px;float:left;}
+.goodman .man-01 .addventlist{width:1200px;height:480px;position: absolute;bottom:0;left:0;}
+.goodman .man-01 .addventlist ul li{width:265px;height:480px;float:left;position: relative;}
+.goodman .man-01 .addventlist ul li.left h3.at{animation:Wegoodl 0.8s ease 0.5s forwards ;}
+.goodman .man-01 .addventlist ul li.middle{margin:0 170px;}
+.goodman .man-01 .addventlist ul li.middle h3.at{animation:Wegoodm 0.8s ease 0.5s forwards ;}
+.goodman .man-01 .addventlist ul li.right h3.at{animation:Wegoodr 0.8s ease 0.5s forwards ;}
+.goodman .man-01 .addventlist ul li h3 img{transition:all 0.5s ease;width:181px;height:235px;margin:0 auto;}
+.goodman .man-01 .addventlist ul li h3{width:181px;height:235px;margin:0 auto;}
+
+.goodman .man-01 .addventlist ul li .content{transition:all .5s ease; transform:translateY(180px); width:100%;height:150px;position: absolute;bottom:0;background: #3f3e3d;padding:30px 10px 0;font-size:18px;line-height: 30px;color:#818080;}
+.goodman .man-01 .addventlist ul li:hover h3 img{transform:translateY(-40px);}
+.goodman .man-01 .addventlist ul li:hover .content{transform:translateY(-0px);}
+/*这是man-03 楼梯*/
+.man-03{width:100%;height:1050px;background: url(../images/man03bg.gif) no-repeat;background-size:100% 100%;overflow: hidden; }
+.man-03 .man-03box{width:1200px;height:1050px;margin:0 auto;}
+.man-03 .man-03box .top-bg{width:639;height:133px;float:right;margin-right:100px;background: url(../images/man03topbg.jpg) no-repeat;}
+.man-03 .man-03box .lou{width:700px;height:860px;float:left;}
+.man-03 .man-03box .text-list{margin:150px 60px 0; width:370px;height:350px;background:url(../images/yinying_03.jpg) no-repeat 8px 30px;float:left;transform:rotate(-45deg)}
+.man-03 .man-03box .text-list ul li{float:left;margin-left:30px; transition:all 0.5s ease;}
+.man-03 .man-03box .text-list ul li:hover{transform:scale(1.1);}
+.man-03 .man-03box .text-list ul li img{outline: none;border:none;}
+.man-03 .man-03box .list-content{overflow: hidden; width:450px;height:140px;float:left;margin-left:5px;margin-top:100px;position: relative;}
+.man-03 .man-03box .list-content img{position: absolute;bottom: 0px;z-index: 5;}
+.man-03 .man-03box .list-content .context{transform:translateY(110px); transition:all 0.5s ease; width:420px;height:110px;background:#f3f3f3;position: absolute;bottom:20px;left:50%;margin-left:-210px;}
+.man-03 .man-03box .list-content .context .box-tex{padding:30px 10px;font-size:18px;color:#727272;line-height: 30px;}
+/*They have someToSay*/
+.man-04{width:100%;height:880px;background:#f47287;clear:both;background: url(../images/somethingBg.jpg) no-repeat center center;/*background-size:100% 100%;*/}
+.man-04 .man-04-content{width:1200px;height:880px;/*background: url(../images/somethingBg.jpg) no-repeat left top;background-size:100% 100%;*/ margin:0 auto;position: relative;}
+.man-04 .man-04-content .title{width:1050px;height:90px;position: relative;top:10px;margin:0 auto;}
+.man-04 .man-04-content .title h3{width:388px;height:68px;background:url(../images/have.png) no-repeat;float:left;}
+.man-04 .man-04-content .title .button{width:115px;height:40px;border-radius:20px;font-size:21px;line-height: 40px;text-align: center;font-weight: 400;color:#f4788a; background: #fff;float:right;margin-top:20px; margin-right:230px;}
+.man-04 .man-04-content .somecaseShow{width:1010px;height:500px;margin:30px auto;}
+.man-04 .man-04-content .somecaseShow a.scale{transition:all 0.5s ease;}
+.man-04 .man-04-content .somecaseShow a.scale:hover{transform:scale(1.1)}
+.man-04 .man-04-content .somecaseShow a.img1 img.addimg{animation:left 0.5s ease forwards;}
+.man-04 .man-04-content .somecaseShow a.img2 img.addimg{animation:top 0.5s ease forwards;}
+.man-04 .man-04-content .somecaseShow a.img3 img.addimg{animation:bottom 0.5s ease forwards;}
+.man-04 .man-04-content .somecaseShow a.img4 img.addimg{animation:top 0.5s ease forwards;}
+.man-04 .man-04-content .somecaseShow a.img5 img.addimg{animation:top 0.5s ease forwards;}
+.man-04 .man-04-content .somecaseShow a.img6 img.addimg{animation:right 0.5s ease forwards;}
+.man-04 .man-04-content .somecaseShow a.img7 img.addimg{animation:bottom 0.5s ease forwards;}
+.man-04 .man-04-content .somecaseShow a.img8 img.addimg{animation:bottom 0.5s ease forwards;}
+.man-04 .man-04-content .somecaseShow .some-left{width:330px;height:100%;float:left;}
+.man-04 .man-04-content .somecaseShow .some-left a{float:left;display: inline-block;float:left;}
+.man-04 .man-04-content .somecaseShow .some-left a.small{width:160px;height:160px;}
+.man-04 .man-04-content .somecaseShow .some-right{width:670px;height:500px;float:right;}
+.man-04 .man-04-content .somecaseShow .some-right a{float:left; display: inline-block;}
+.man-04 .man-04-content .somecaseShow .some-right a.show1{position: relative;bottom:156px;}
+.man-04 .man-04-content .some-hide{position:absolute; bottom:0px;left:-280px; width:0;height:0;border-left:330px solid #f4758a;border-bottom:190px solid #f4758a; border-top:190px solid transparent;border-right:330px solid transparent;z-index: 5;}
+.man-04 .man-04-content .some-item{transition:all 0.5s ease; font-size:0px; width:0px;height:115px;background:#3d3d3d;position:absolute;bottom: 70px;left:0px;}
+.man-04 .man-04-content .some-item .text{padding:10px; color:#f6f6f6;line-height: 25px;white-space: nowrap;text-align: right;}
+.man-04-content .some-item .text{ ;color:#f6f6f6;line-height: 25px;white-space: nowrap;text-align: right;}
+
+/*这是尾部*/
+.man-05{background:url(../images/man05bg_01.jpg) no-repeat center center;width:100%;height:620px;clear: both;background-size:1919px 620px;}
+.man-05 .man-05-box{width:1200px;height:620px;position:relative;margin:0 auto; }
+.man-05 .man-05-box .sal-log{width:1004;height:333px;position: absolute;top:170px; left:50%; margin-left:-500px;overflow: hidden;}
+.man-05 .man-05-box .left-arrow{display: none; z-index: 5; width:60px;height:120px;font-size:70px;line-height: 140px;position: absolute;top:50%;margin-top:-50px; left:20px;opacity: 0.2}
+.man-05 .man-05-box .right-arrow{display: none; z-index: 5; width:60px;height:120px;font-size:70px;line-height: 140px;position: absolute;top:50%;margin-top:-50px; right:20px;opacity: 0.2}
+.man-05 .man-05-box .sal-log ul{width:1608px;height:100%;transition:all 0.7s ease;}
+/*.man-05 .man-05-box .sal-log ul li img{opacity: 0;}*/
+.man-05 .man-05-box .sal-log ul li{float:left;width:200px;height:333px;border-right:1px solid #d4d4d4;}
+.man-05 .man-05-box .sal-log ul li img.addevent{animation:showimg 2s ease forwards;}
+.man-05 .man-05-box .sal-log ul li a{display: block;width:100%;height:110px;}
+.man-05 .man-05-box .sal-log ul li a.center{border-top:1px solid #d4d4d4;border-bottom:1px solid #d4d4d4;}

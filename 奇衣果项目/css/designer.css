@@ -1,0 +1,160 @@
+
+.navbar-brand>span{
+	color:#000;
+}
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a:hover{
+    color: #000;
+}
+section{
+	min-height:800px;
+}
+header{
+	margin-top:60px;
+	padding:20px 0 20px 70px;
+	background-color:#A0A0A0;
+	color:#fff;
+	font-size:30px;
+	font-weight:bold;
+}
+.container{
+	padding:50px 0;
+}
+header>p{
+	margin-bottom:0;
+}
+p.container{
+	padding:0;
+}
+aside{
+	width:30%;
+	min-width:280px;
+	float:left;
+}
+aside>p{
+	font-size:22px;
+}
+.pare{
+	position:relative;
+	width:280px;
+	height:280px;
+	overflow:hidden;
+	border-radius:50%;
+	margin:20px 0 30px 0;
+	cursor:pointer;
+}
+.pare>span{
+	position:absolute;
+	top:87px;
+	left:87px;
+	width:101px;
+	height:101px;
+	line-height:101px;
+	font-size:24px;
+	font-weight:bold;
+	color:#fff;
+	text-align:center;
+	border:2px solid #E83249;
+	border-radius:50%;
+}
+.pare>img{
+	width:280px;
+	height:280px;
+	
+}
+figcaption{
+	width:300px;
+	font-size:18px;
+	color:#BEBEBE;
+}
+article{
+	width:70%;
+	float:left;
+}
+.coco{
+	margin:0!important;
+}
+.girl{
+	margin-bottom:40px;
+}
+.rel{
+	position:relative;
+	overflow:hidden;
+	width:220px;
+	height:220px;
+	border-radius:50%;
+	margin:0 auto;
+	cursor:pointer;
+}
+.rel>p{
+	display:none;
+	position:absolute;
+	bottom:30px;
+	left:0;
+	z-index:10;
+	width:100%;
+	height:28px;
+	line-height:28px;
+	color:#fff;
+	font-size:20px;
+	background-color:rgba(159,159,159,.7);
+	filter:Alpha(opacity=60);
+}
+.rel:hover>p{
+	display:block;
+}
+.rel>img{
+	width:220px;
+	height:220px;
+}
+.loginas{
+	padding:80px 0;
+}
+.loginas>p,.dossier{
+	font-size:20px;
+}
+.dossier~p{
+	font-size:14px;
+}
+.dossier+p{
+	margin-top:40px;
+}
+.dossier+p+p{
+	margin-bottom:40px;
+}
+.expect,.expect1{
+	display:inline-block;
+	width:268px;
+}
+.expect{
+	border:1px solid #000;
+	margin:10px 0 30px;
+}
+.expect,.expect:hover{
+	color:#000;
+}
+@media screen and (max-width:991px){
+	aside,article{
+		width:100%;
+	}
+	aside{
+		text-align:center;
+	}
+	figcaption{
+		width:300px;
+		text-align:center!important;
+		margin:0 auto 50px;
+	}
+	.pare{
+		margin:20px auto 30px;
+	}
+}
+@media screen and (min-width:320px) and (max-width:375px){
+	.expect, .expect1 {
+		width: 90%;
+	}
+	header {
+		padding: 20px 10%;
+	}
+
+}

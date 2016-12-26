@@ -1,0 +1,264 @@
+
+.navbar-brand>span{
+	color:#000;
+}
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:active,
+.navbar-default .navbar-nav>li>a:focus{
+    color: #000;
+}
+section{
+	min-height:800px;
+}
+header{
+	margin-top:60px;
+	padding:20px 0 20px 70px;
+	background-color:#A0A0A0;
+	color:#fff;
+	font-size:30px;
+	font-weight:bold;
+}
+.mannerA>p{
+	font-size:20px;
+	margin-bottom:0;
+	height:30px;
+	line-height:30px;
+}
+.right{
+	background:url(../img/arrow2.png) no-repeat 90% center;
+}
+.left{
+	background:url(../img/arrow1.png) no-repeat 10% center;
+}
+.mannerA>p>a{
+	display:inline-block;
+	width:85px;
+	height:100%;
+	background-color:#000;
+	color:#fff;
+}
+
+.manner>h2{
+	margin:30px 0;
+}
+figure{
+	margin-top:20px;
+	cursor:pointer;
+}
+.sss{
+	position:relative;
+	margin:0 auto;
+	width:160px;
+	height:160px;
+	border-radius:50%;
+	overflow:hidden;
+}
+.sss>p{
+	position:absolute;
+	top:0;
+	left:0;
+	margin-bottom:0;
+	width:160px;
+	height:160px;
+	border-radius:50%;
+}
+.eee{
+	background:url(../img/tick-02.png) no-repeat 80% 80%;
+}
+.sss>img{
+	width:160px;
+	height:160px;
+}
+figcaption{
+	font-size:18px;
+}
+.pane{
+	margin:30px 0;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.progt{
+	height:30px;
+	line-height:30px;
+	font-size:16px;
+	margin-bottom:20px;
+}
+.drtye{
+	display:inline-block;
+	width:10%;
+	min-width:75px;
+}
+.progt>p{
+	position:relative;
+	display:inline-block;
+	vertical-align:middle;
+	width:71%;
+	margin:0 4.2%;
+}
+.progt>p>span{
+	position:absolute;
+	top:10px;
+}
+.progt>p>.min{
+	left:0;
+}
+.progt>p>.min1{
+	left:20%;
+}
+.progt>p>.min2{
+	left:40%;
+}
+.progt>p>.max1{
+	left:60%;
+}
+.progt>p>.max2{
+	left:80%;
+}
+.progt>p>.max{
+	right:0;
+}
+.texter{
+	display:inline-block;
+	vertical-align:middle;
+	width:7.4%;
+	min-width:47px;
+	height:23px;
+	line-height:23px;
+	text-align:center;
+	color:#C4C6C5;
+	border-radius:5px;
+	border:1px solid #C4C6C5;
+}
+.clret{
+	margin:50px 0 30px;
+}
+.clret>span{
+	display:inline-block;
+	padding:0 10px;
+	height:30px;
+	line-height:30px;
+	font-size:20px;
+	background-color:#000;
+	color:#fff;
+	cursor:pointer;
+}
+
+.slidef{
+	margin-bottom:100px;
+}
+
+.forms{
+	width:370px;
+	margin:80px auto 0;
+}
+.forms>p{
+	height:40px;
+	line-height:40px;
+	margin:0;
+	font-size:16px;
+	font-weight:bold;
+	color:#D39460;
+}
+.forms>input,.sels{
+	display:block;
+	padding-left:10%;
+	width:100%;
+	height:30px;
+	font-size:20px;
+	border:0;
+	outline:none;
+	border-bottom:1px solid #ccc;
+}
+.forms>input:nth-child(1){
+	background:url(../img/name.png) no-repeat left center;
+	background-size:8% 100%;
+}
+.forms>input:nth-child(3){
+	background:url(../img/date.png) no-repeat left center;
+	background-size:8% 100%;
+}
+.sels{
+	background:url(../img/place.png) no-repeat left center;
+	background-size:8% 100%;
+}
+.sels>select{
+	border:0;
+	outline:none;
+	height:100%;
+}
+.sels>select:first-child{
+	margin-left:-16%;
+}
+.forms>input:nth-child(7){
+	background:url(../img/adress.png) no-repeat left center;
+	background-size:8% 100%;
+}
+
+.selec{
+	padding:50px 0;
+	font-size:20px;
+}
+.selec>p{
+	margin:20px 0;
+}
+.ui-state-default, 
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+	border-radius:50%;
+	outline:none;
+}
+.ui-slider-horizontal {
+    height: 0!important;
+}
+.ui-slider-horizontal .ui-slider-handle {
+    top: -0.6em!important;
+    margin-left: 0!important;
+}
+
+
+@media screen and (max-width: 767px){
+	.progt>p {
+		margin: 0;
+	}
+}
+@media screen  and (max-width:991px){
+	.mannerA>p{
+		margin:50px 0!important;
+	}
+	.left{
+		background:url(../img/arrow1.png) no-repeat 35% center;
+	}
+	.right{
+		background:url(../img/arrow2.png) no-repeat 65% center;
+	}
+}
+
+@media only screen and (min-width:992px) {
+	.colour{
+		margin:30px 0 120px!important;
+	}
+}
+@media screen and (min-width:320px) and (max-width:414px){
+	.progt>p {
+		width: 55%;
+		margin: 0;
+	}
+	.forms{
+		width:90%;
+	}
+	.sels>select:first-child{
+		margin-left:-4%;
+	}
+	.sels>select{
+		margin-left:-2%;
+	}
+	.manner>h2{
+		font-size:20px;
+	}
+}
+
+
+
+

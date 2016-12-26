@@ -1,0 +1,49 @@
+@charset 'utf-8';
+*{margin:0;padding:0;}
+li{list-style-type: none}
+a{text-decoration: none;}
+
+/*这里是动画*/
+.caseLeft{animation:left 1s ease forwards;}
+.caseRight{animation:right 1s ease forwards;}
+.caseOpacity{animation:showimg 1s ease 0.7s forwards;}
+/*这是回到顶部按钮*/
+.backtop{width:60px;height:130px;position:fixed;bottom:100px;right:100px;z-index: 99;display: none;}
+.backtop .calltop{width:60px;height:60px;background: url(../images/gettop.jpg) no-repeat;margin-bottom:10px;}
+.backtop .calltop a{width:100%;height:100%;display: block;}
+.backtop .sever{padding:10px;text-align:center;font-size:14px;color:#fff; line-height:20px;width:39px;background: #f14a65; }
+/*这里是头部header*/
+header{width:100%;height:120px;background:#fff;margin:0 auto;}
+.head-top{width:1200px;height:120px;background:#fff;margin:0 auto;}
+header .log{float:left;position:relative;top:30px;}
+header ul{margin-left:78px;float:left;}
+header ul li a{color:#333;display: block;width:100%;height:100%;}
+header ul li{z-index: 99;float:left;width:140px;height:120px;display: line-block;line-height: 120px;text-align: center;position:relative;margin-right:17px;}
+header ul li:before{content:""; width:0%;height:4px;position:absolute;bottom:0;left:50%;background: #f73856;transition:all 0.5s;}
+header ul li:after{content:""; width:0%;height:4px;position:absolute;bottom:0;right:50%;background: #f73856;transition:all 0.5s}
+header ul li:hover:before{width:50%;}
+header ul li:hover:after{width:50%;}
+header ul li.active a{background: url(../images/active.png);color:#fff;font-size:18px;line-height: 120px;width:100%;height:100%;display: block;}
+header .head-top .address{width:230px;height:80px;float:right;margin-top:22px;}
+header .head-top .address .tel{width:100%;height:30;color:#000;font-size:28px;}
+header .head-top .address .tel i{width:30px;height:30px;display: inline-block;background: url(../images/tel.jpg);margin-right:10px;}
+header .head-top .address .tel-name{width:100%;height:40px;margin-top:10px;}
+header .head-top .address .tel-name a{display: inline-block;width:110px;height:40px;text-align: center;line-height: 40px;color:#fff;font-size:18px;}
+header .head-top .address .tel-name a.use{background:#3d3d3d }
+header .head-top .address .tel-name a.self{background:#f84662 }
+/*注册栏 register*/
+.register{width:100%;height:280px;clear:both;background:url(../images/bottombg_02.jpg) no-repeat;background-size:100% 100%;}
+.register .register-box{width:1200px;height:280px;margin:0 auto;position: relative;}
+.register .register-box .bottom-user{width:530px;height:180px;float:left;position: absolute;left:50%;top:50%;margin-left:-265px;margin-top:-90px;}
+.register .register-box .bottom-user p{font-size:24px;color:#fff;text-align: center}
+.register .register-box .bottom-user p span{font-size:72px;color:#f73856;font-weight: 700;}
+.register .register-box .bottom-user form input[type="text"]{width:330px;height:50px;text-indent: 10px}
+.register .register-box .bottom-user form input[type="button"]{font-size:24px;line-height: 50px; width:170px;height:50px;border:none;outline:none;color:#fff; background:#f73856;vertical-align: bottom;}
+.footer{width:1200px;height:310px;clear:both;margin:0 auto;}
+.footer .left{width:480px;height:150px;float:left;margin-left:200px;margin-top:40px;}
+.footer .left ul li{width:100px;height:100%;float:left;}
+.footer .left ul li title{margin-bottom:10px; height:30px;width:100%;font-size:24px;color:#000;line-height: 30px;text-align:center;display: block;}
+.footer .left ul li p{height:30px;line-height: 30px;text-align: center;font-size:18px;color:#bdbdbd;}
+.footer .left ul li p:hover{color:#f30;}
+.footer .right{width:194px;height:226px;float:left;background: url(../images/bottomerwen.png) no-repeat;margin:40px 0 0 100px;}
+.sub-footer{width:100%;height:70px;background:#d4d4d4 ;font-size: 14px;color:#fff;line-height: 70px;text-align: center;}

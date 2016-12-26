@@ -1,0 +1,126 @@
+
+/*这是回到顶部按钮*/
+.backtop{width:60px;height:130px;position:fixed;bottom:100px;right:100px;z-index: 99;display: none;}
+.backtop .calltop{width:60px;height:60px;background: url(../images/gettop.jpg) no-repeat;margin-bottom:10px;}
+.backtop .calltop a{width:100%;height:100%;display: block;}
+.backtop .sever{padding:10px;text-align:center;font-size:14px;color:#fff; line-height:20px;width:39px;background: #f14a65; }
+/*这是man-01图片*/
+.man-01{width:100%;height:600px;margin:0 auto;background: #f73856;position: relative;overflow: hidden}
+.man-01 .somecaseShow{width:1010px;height:500px;position: absolute;top:50px;left:50%;margin-left:-505px;}
+.man-01 .somecaseShow a.scale{transition:all 0.5s ease;}
+.man-01 .somecaseShow a.scale:hover{transform:scale(1.1)}
+.man-01 .somecaseShow a.img1 img{animation:left 0.5s ease forwards;}
+.man-01 .somecaseShow a.img2 img{animation:top 0.5s ease forwards;}
+.man-01 .somecaseShow a.img3 img{animation:bottom 0.5s ease forwards;}
+.man-01 .somecaseShow a.img4 img{animation:top 0.5s ease forwards;}
+.man-01 .somecaseShow a.img5 img{animation:top 0.5s ease forwards;}
+.man-01 .somecaseShow a.img6 img{animation:right 0.5s ease forwards;}
+.man-01 .somecaseShow a.img7 img{animation:bottom 0.5s ease forwards;}
+.man-01 .somecaseShow a.img8 img{animation:bottom 0.5s ease forwards;}
+.man-01 .somecaseShow .some-left{width:330px;height:100%;float:left;}
+.man-01 .somecaseShow .some-left a{float:left;display: inline-block;float:left;}
+.man-01 .somecaseShow .some-left a.small{width:160px;height:160px;}
+.man-01 .somecaseShow .some-right{width:670px;height:500px;float:right;}
+.man-01 .somecaseShow .some-right a{float:left; display: inline-block;}
+.man-01 .somecaseShow .some-right a.show1{position: relative;bottom:156px;}
+.subitem{width:100%;height:120px;clear: both;background: #3d3d3d;}
+.subitem p{font-size: 36px;color:#fff;line-height: 120px;text-align: center;font-weight: 700;}
+/*这是man-02金融行业*/
+.man-02{width:1200px;height:590px;position: relative;margin:0 auto;}
+.man-02 .topbg{position: absolute;right:-140px;width:1700px;height:150px;background: url(../images/case02bg.jpg) no-repeat; background-size:1700px 150px;}
+.man-02 .topbg .title{width:600px;height:90px;position: absolute;top:10px;right:190px;font-size:18px;color:#f4f4f4;line-height: 30px}
+.man-02 .topbg .title .p2{text-align: right}
+.man-02 .money-tu{width:780px;height:344px;position:absolute; bottom:50px;left:0;background: url(../images/jinrongtu.png) no-repeat;}
+.man-02 .money-text{width:335px;height:300px;position: absolute;right:60px;bottom:80px;opacity: 0}
+.man-02 .money-text p{font-size:30px;color:#d6d6d6;}
+.man-02 .money-text dl dt{font-size: 18px;color:#999;line-height: 30px;}
+.man-02 .money-text dl dd{margin-left:90px;color:#333; float:left;margin-top:-30px;}
+.man-02 .money-text dl{margin-bottom:5px;}
+/*这是man-03 保险行业*/
+.man-03{width:100%;height:590px;background: #3d3d3d}
+.man-03-box{width:1200px;height:590px;position: relative;margin:0 auto;}
+.man-03-box .topbg{position: absolute;right:-340px;width:1700px;height:150px;background: url(../images/case03bg.jpg) no-repeat; background-size:1700px 150px;}
+.man-03-box .topbg .title{width:600px;height:90px;position: absolute;top:10px;left:140px;font-size:18px;color:#f4f4f4;line-height: 30px}
+.man-03-box .topbg .title .p2{text-align: right}
+.man-03-box .money-tu{width:780px;height:344px;position:absolute; bottom:50px;right:0;background: url(../images/caseman-3.png) no-repeat;}
+.man-03-box .money-text{opacity: 0;width:335px;height:300px;position: absolute;left:60px;bottom:80px;}
+.man-03-box .money-text p{font-size:30px;color:#f73856;;}
+.man-03-box .money-text dl dt{font-size: 18px;color:#8f8f8f;line-height: 30px;}
+.man-03-box .money-text dl dd{margin-left:90px;color:#fff; float:left;margin-top:-24px;}
+.man-03-box .money-text dl{margin-bottom:5px;}
+/*这是man-04旅游行业*/
+.man-04{width:100%;height:590px;background: #fff}
+.man-04{width:1200px;height:590px;position: relative;margin:0 auto;}
+.man-04 .topbg{position: absolute;right:-140px;width:1700px;height:150px;background: url(../images/case4.jpg) no-repeat; background-size:1700px 150px;}
+.man-04 .topbg .title{width:600px;height:90px;position: absolute;top:10px;right:190px;font-size:18px;color:#f4f4f4;line-height: 30px}
+.man-04 .topbg .title .p2{text-align: right}
+.man-04 .money-tu{width:780px;height:344px;position:absolute; bottom:50px;left:0;background: url(../images/case-04.png) no-repeat;}
+.man-04 .money-text{opacity: 0;width:335px;height:300px;position: absolute;right:60px;bottom:80px;}
+.man-04 .money-text p{font-size:30px;color:#d6d6d6;}
+.man-04 .money-text dl dt{font-size: 18px;color:#999;line-height: 30px;}
+.man-04 .money-text dl dd{margin-left:90px;color:#333; float:left;margin-top:-30px;}
+.man-04 .money-text dl{margin-bottom:5px;}
+/*这是man-05电商行业*/
+.man-05{width:100%;height:590px;background: #f73856}
+.man-05-box{width:1200px;height:590px;position: relative;margin:0 auto;}
+.man-05-box .topbg{position: absolute;right:-340px;width:1700px;height:150px;background: url(../images/case05dianshang.jpg) no-repeat; background-size:1700px 150px;}
+.man-05-box .topbg .title{width:600px;height:90px;position: absolute;top:10px;left:140px;font-size:18px;color:#f4f4f4;line-height: 30px}
+.man-05-box .topbg .title .p2{text-align: right}
+.man-05-box .money-tu{width:780px;height:344px;position:absolute; bottom:50px;right:0;background: url(../images/case05.png) no-repeat;}
+.man-05-box .money-text{opacity: 0;width:335px;height:300px;position: absolute;left:60px;bottom:80px;}
+.man-05-box .money-text p{font-size:30px;color:#fff;;}
+.man-05-box .money-text dl dt{font-size: 18px;color:#ffa8b6;line-height: 30px;}
+.man-05-box .money-text dl dd{margin-left:90px;color:#fff; float:left;margin-top:-24px;}
+.man-05-box .money-text dl{margin-bottom:5px;}
+/*这是man-04医疗行业*/
+.man-06{width:100%;height:590px;background: #fff}
+.man-06{width:1200px;height:590px;position: relative;margin:0 auto;}
+.man-06 .topbg{position: absolute;right:-140px;width:1700px;height:150px;background: url(../images/case6yiliao.jpg) no-repeat; background-size:1700px 150px;}
+.man-06 .topbg .title{width:600px;height:90px;position: absolute;top:10px;right:190px;font-size:18px;color:#f4f4f4;line-height: 30px}
+.man-06 .topbg .title .p2{text-align: right}
+.man-06 .money-tu{width:780px;height:344px;position:absolute; bottom:50px;left:0;background: url(../images/case-06.png) no-repeat;}
+.man-06 .money-text{opacity: 0;width:335px;height:300px;position: absolute;right:60px;bottom:80px;}
+.man-06 .money-text p{font-size:30px;color:#f73856;}
+.man-06 .money-text dl dt{font-size: 18px;color:#999;line-height: 30px;}
+.man-06 .money-text dl dd{margin-left:90px;color:#333; float:left;margin-top:-30px;}
+.man-06 .money-text dl{margin-bottom:5px;}
+/*这是man-05教育行业*/
+.man-07{width:100%;height:590px;background: #3d3d3d}
+.man-07-box{width:1200px;height:590px;position: relative;margin:0 auto;}
+.man-07-box .topbg{position: absolute;right:-340px;width:1700px;height:150px;background: url(../images/case_06jiaoyu.jpg) no-repeat; background-size:1700px 150px;}
+.man-07-box .topbg .title{width:600px;height:90px;position: absolute;top:10px;left:140px;font-size:18px;color:#f4f4f4;line-height: 30px}
+.man-07-box .topbg .title .p2{text-align: right}
+.man-07-box .money-tu{width:780px;height:344px;position:absolute; bottom:50px;right:0;background: url(../images/case-07.png) no-repeat;}
+.man-07-box .money-text{opacity: 0;width:335px;height:300px;position: absolute;left:60px;bottom:80px;}
+.man-07-box .money-text p{font-size:30px;color:#f73856;;}
+.man-07-box .money-text dl dt{font-size: 18px;color:#999999;line-height: 30px;}
+.man-07-box .money-text dl dd{margin-left:90px;color:#fff; float:left;margin-top:-24px;}
+.man-07-box .money-text dl{margin-bottom:5px;}
+/*这是man-08传媒行业*/
+.man-08{width:100%;height:590px;background: #fff}
+.man-08{width:1200px;height:590px;position: relative;margin:0 auto;}
+.man-08 .topbg{position: absolute;right:-140px;width:1700px;height:150px;background: url(../images/case-08-1.png) no-repeat; background-size:1700px 150px;}
+.man-08 .topbg .title{width:600px;height:90px;position: absolute;top:10px;right:190px;font-size:18px;color:#f4f4f4;line-height: 30px}
+.man-08 .topbg .title .p2{text-align: right}
+.man-08 .money-tu{width:780px;height:344px;position:absolute; bottom:50px;left:0;background: url(../images/case-8top.png) no-repeat;}
+.man-08 .money-text{opacity: 0;width:335px;height:300px;position: absolute;right:60px;bottom:80px;}
+.man-08 .money-text p{font-size:30px;color:#f73856;}
+.man-08 .money-text dl dt{font-size: 18px;color:#999;line-height: 30px;}
+.man-08 .money-text dl dd{margin-left:90px;color:#333; float:left;margin-top:-30px;}
+.man-08 .money-text dl{margin-bottom:5px;}
+/*注册栏 register*/
+.register{width:100%;height:280px;clear:both;background:url(../images/bottombg_02.jpg) no-repeat;background-size:100% 100%;}
+.register .register-box{width:1200px;height:280px;margin:0 auto;position: relative;}
+.register .register-box .bottom-user{width:530px;height:180px;float:left;position: absolute;left:50%;top:50%;margin-left:-265px;margin-top:-90px;}
+.register .register-box .bottom-user p{font-size:24px;color:#fff;text-align: center}
+.register .register-box .bottom-user p span{font-size:72px;color:#f73856;font-weight: 700;}
+.register .register-box .bottom-user form input[type="text"]{width:330px;height:50px;text-indent: 10px}
+.register .register-box .bottom-user form input[type="button"]{font-size:24px;line-height: 50px; width:170px;height:50px;border:none;outline:none;color:#fff; background:#f73856;vertical-align: bottom;}
+.footer{width:1200px;height:310px;clear:both;margin:0 auto;}
+.footer .left{width:480px;height:150px;float:left;margin-left:200px;margin-top:40px;}
+.footer .left ul li{width:100px;height:100%;float:left;}
+.footer .left ul li title{margin-bottom:10px; height:30px;width:100%;font-size:24px;color:#000;line-height: 30px;text-align:center;display: block;}
+.footer .left ul li p{height:30px;line-height: 30px;text-align: center;font-size:18px;color:#bdbdbd;}
+.footer .left ul li p:hover{color:#f30;}
+.footer .right{width:194px;height:226px;float:left;background: url(../images/bottomerwen.png) no-repeat;margin:40px 0 0 100px;}
+.sub-footer{width:100%;height:70px;background:#d4d4d4 ;font-size: 14px;color:#fff;line-height: 70px;text-align: center;}

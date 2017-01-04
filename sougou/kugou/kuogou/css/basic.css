@@ -1,0 +1,179 @@
+@charset 'utf-8';
+*{margin:0;
+   padding:0;} 
+   body{font-family:微软雅黑;}
+#header{
+	/*background: red;*/
+	width:1000px;
+	height:78px;
+	margin:0 auto;
+}
+#header img{
+	float:left;margin-top:20px;
+}
+#header ul{
+	float:right;
+    list-style: none;
+}
+#header ul li{
+    float:left;
+    line-height: 78px;
+    font-size:15px;
+    text-decoration: none;
+    margin-left:30px;
+}
+#header ul li a{text-decoration:none;
+     color:#777;
+}
+#header ul li a:hover{color:#009af3;}
+#menu{height:55px;background-color:#2c323b;}
+#menu .menu-content{
+	width:1000px;height:55px;
+    margin:0 auto;
+}
+#menu .menu-content ul.menu-left{
+	float:left;
+}
+#menu .menu-content ul.menu-left li{ 
+	float:left;line-height: 55px;
+    color:#fff;
+    list-style-type: none;
+    line-height:55px;
+    padding:0 30px;
+}
+#menu .menu-content ul.menu-left li:hover{background-color:#0c8ed9;}
+#menu .menu-content ul.menu-left li a{
+	text-decoration:none;
+	color:white;
+}
+#menu .menu-content ul.menu-left .active{background-color:#0c8ed9;}
+#menu .menu-content ul.menu-right{float:right;}
+#menu .menu-content ul.menu-right li{
+	float:left;
+	list-style-type:none;
+	height: 55px;
+	color:#bbb;
+	font-size:13px;
+	margin-left: 30px;
+	text-indent:10px;
+}
+#menu .menu-content ul.menu-right li a{
+	color:#bbb;
+	text-decoration:none;
+	display: block;
+	margin-top:20px;
+	text-indent:25px;
+
+}
+#menu .menu-content ul.menu-right li a:hover{color:#14a9ff;}
+#menu .menu-content ul.menu-right li:nth-child(1) a{
+     /*background: url(../img/sprite.png) no-repeat 0 -121px;*/
+     background: url(../img/sprite.png) no-repeat 0 -121px; ;
+}
+#menu .menu-content ul.menu-right li:nth-child(1) a:hover{
+	background-position:0 -103px;
+}
+#menu .menu-content ul.menu-right li:nth-child(2) a{
+	background: url(../img/sprite.png) no-repeat 0 -157px;
+}
+#menu .menu-content ul.menu-right li:nth-child(2) a:hover{
+	background-position:0 -139px;
+}
+#menu .menu-content ul.menu-right li:nth-child(3) a{
+	background: url(../img/sprite.png) no-repeat 0 -192px;
+}
+#menu .menu-content ul.menu-right li:nth-child(3) a:hover{
+	background-position:0 -174px;
+}
+#menu .menu-content ul.menu-right li:nth-child(4) a{
+	background: url(../img/sprite.png) no-repeat 0 -228px;
+}
+#menu .menu-content ul.menu-right li:nth-child(4) a:hover{
+	background-position:0 -210px;
+}
+#menu .menu-content ul.menu-right li:nth-child(5) a{
+	background: url(../img/sprite.png) no-repeat 0 -283px;
+}
+#menu .menu-content ul.menu-right li:nth-child(5) a:hover{
+	background-position:0 -247px;
+}
+#banner{height:500px;background:url(../img/2Q==.jpg);position:relative;}
+#banner .tu-left{
+     width:60px;height:120px;
+	float:left;display: block;
+	position:absolute;
+	top:50%;margin-top: -60px;
+	background:url(../img/sprite.png) no-repeat 0 -750px;
+} 
+#banner .tu-left:hover{
+	background-position:0 -875px;
+}
+#banner .tu-right{
+     width:60px;height:120px;
+	float:right;display: block;
+	position:absolute;
+	right:0;
+	top:50%;margin-top: -60px;
+	background:url(../img/sprite.png) no-repeat 0 -1125px;
+} 
+#banner .tu-right:hover{
+	background-position:0 -1000px;
+}
+#banner .cri{height:25px;width:100%;position:absolute;
+	bottom:80px;
+
+}
+#banner .cri ul{list-style-type: none;width:60px;height:12px;margin:0 auto;
+
+}
+#banner .cri ul li{
+	display:inline-block;float:left;
+	width:12px;height:10px;
+	cursor:auto;
+	font-size:0;
+	background:url(../img/sprite.png) no-repeat 0 -20px;
+}
+#banner .cri ul li:hover{
+	background-position:0 -37px;
+}
+#banner .banner-bottom{
+	height:60px;position:absolute;
+	bottom:0;
+	width:100%;
+	background-color: rgba(0,0,0,.2);
+}
+#banner .banner-bottom .onload{
+	width:745px;height:64px;margin:0 auto;
+}
+#banner .banner-bottom .onload ul{
+	list-style-type: none;margin:auto;
+}
+#banner .banner-bottom .onload ul li{
+	float:left;line-height: 64px;
+	text-indent:130px;
+	font-size:15px;
+	color:#fff;
+	vertical-align: middle;
+}
+#banner .banner-bottom .onload ul li a{
+	text-decoration:none;color:#fff;
+    text-indent:130px;
+    display:block;
+}
+#banner .banner-bottom .onload ul li:nth-child(1) a{background:url(../img/pc.png) no-repeat 70px center;
+}
+#banner .banner-bottom .onload ul li:nth-child(2) a{background:url(../img/mac.png) no-repeat 70px center;
+}
+#banner .banner-bottom .onload ul li:nth-child(3) a{background:url(../img/andriod_hover.png) no-repeat 70px center;
+}
+#secondcontent{
+	width:1000px;height:2124px;
+	margin:0 auto;
+}
+#secondcontent .content-item{
+	width:650px;height:30px;
+	display: inline-block;
+	font-size:30px;
+	font-family:宋体;
+	margin-top:40px;
+}
